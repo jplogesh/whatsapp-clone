@@ -8,7 +8,7 @@ import MoreVertIcon from "@material-ui/icons/MoreVert";
 import { SearchOutlined } from "@material-ui/icons";
 
 function Sidebar() {
- //44:38 pause timing
+ 
     return (
     <div className="sidebar">
       <div className="sidebar__header">
