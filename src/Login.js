@@ -5,6 +5,7 @@ import { auth, provider } from "./firebase";
 import { actionTypes } from "./reducer";
 import { useStateValue } from "./StateProvider";
 function Login() {
+
     const [{}, dispatch] = useStateValue();
     const signIn = () => {
       auth
@@ -22,12 +23,10 @@ function Login() {
     return (
         <div className ="login">
           <div className= "login__container">
-              <img 
-              src ="wts.png" 
+              <img className = "login__logo"
+              src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQHSOoFLGYfbfRCGOuCKZLbHsFe4MdRSjwxQ&usqp=CAU" 
               alt="" />
-              <div className = "login__text">
-                  <h1>Sign In To Whatsapp</h1>
-              </div>
+              
               <Button onClick = {signIn}>Sign In With Google</Button>
               </div>   
                          

@@ -23,3 +23,6 @@
     background-color:rgb(62, 184, 62);
     color: white;
 }
+.login__logo{
+    align-items: center;
+}
