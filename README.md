@@ -1,70 +1,134 @@
-# Getting Started with Create React App
+<!-- [![Contributors][contributors-shield]][contributors-url] -->
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
 
-## Available Scripts
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
 
-In the project directory, you can run:
+  <h1 align="center"> Whatsapp Clone - React , Firebase </h1>
+  <p align="center">
+  <img width="61" alt="firebase" src="https://www.gstatic.com/mobilesdk/160503_mobilesdk/logo/2x/firebase_28dp.png"> &emsp;
+  <img width="61" alt="firebase" src="https://www.loginradius.com/blog/async/static/a9dad0fc4bf1af95243aa5e2d017bc22/a8669/google_cover.jpg"> 
+  <img width="61" alt="react" src="https://user-images.githubusercontent.com/5237154/85112643-8f91e180-b233-11ea-95b3-3c60f976d1bf.png"> &emsp;
 
-### `npm start`
+  </p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  <p align="center">
+     This project is to use React code and create Whatsapp clone app. Firebase is used for hosting the web and the firestore is used as a database for this app build.Whatsapp clone app is done gmail authentication functions using Redux. 
+     
+        . Used firebase as a database
+        . App authentication is done by Google Authentication Provider 
+        . Messages sent by users are stored in cloud firestore
+        
+   Here one can experiance the functions of Whatsapp in a simple manner.Users could send  a message to any group or can add a new chat with new users.The login experience is made as simple for users convienient through google authentication provider.
+        <br />
+    <a href="https://github.com/jplogesh/instagram-clone"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    
+  </p>
+</p>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<!-- TABLE OF CONTENTS -->
 
-### `npm test`
+## Table of Contents
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [About the Project](#about-the-project)
+- [Technical Components](#techincal-components)
+- [Built With](#built-with)
+- [Installation](#Installation)
+- [Contact](#Authors)
+- [Acknowledgements](#acknowledgements)
+- [How it works](#How-it-works)
 
-### `npm run build`
+<!-- ABOUT THE PROJECT -->
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## About The Project
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+This project is to use React to code and create Whatsapp clone app. Firebase is used for hosting the web and the firestore is used as a database for this app build.Whatsapp clone app is done gmail authentication functions using Redux.
+<br />
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Technical Components
 
-### `npm run eject`
+The Project is Backed by Cloud Firestore and Firebase handles the background job to Retrieving and store the data. React is plugged into Java Script which handles coding part of the project compilation.The gmail authentication process is done by google authentication provider.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Firebase - handles the background job to hosting data in web.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Cloud Firestore - Storage of contents uploaded by users This is mapped by project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### React - Load posts at real-time. Instead of refreshing the whole page, particular components will be altered.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Gmail Authentication -User authentication is handled by google authentication provider.
 
-## Learn More
+## Live Version
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [Whatsapp clone Link](https://whatsapp-clone-6788f.web.app/)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![Capture](https://user-images.githubusercontent.com/50772535/108372586-fb927280-7224-11eb-9d0f-c970cb719da9.PNG)
 
-### Code Splitting
+<!-- BUILD WITH -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Built With
 
-### Analyzing the Bundle Size
+This project was built using these technologies.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- React JS
+- Firebase [as a database]
+- Cloud Firestore [hosting purpose]
+- Google Authentication [for gmail id authentication]
 
-### Making a Progressive Web App
+### Installation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+To clone the repository, navigate to it's containing directory, and run:
 
-### Advanced Configuration
+## React Setup
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- \$ `git clone https://github.com/jplogesh/instagram-clone`
+- \$ `npm install`
+- \$ `npm start`
 
-### Deployment
+<!-- HOW IT WORKS -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## How It Works
 
-### `npm run build` fails to minify
+![Capture3](https://user-images.githubusercontent.com/50772535/108372602-ffbe9000-7224-11eb-806b-ef0b2ad54e22.PNG)
+![Capture](https://user-images.githubusercontent.com/50772535/108372586-fb927280-7224-11eb-9d0f-c970cb719da9.PNG)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Built by
+
+👤 **JEYAPRAKASH**
+
+- [LinkedIn](https://www.linkedin.com/in/jeyaprakash24/)
+- [GitHub](https://github.com/jplogesh)
+- [E-mail](jplogesh030@gmail.com)
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## Acknowledgements
+
+- [youtube](https://www.youtube.com/channel/UCqrILQNl5Ed9Dz6CGMyvMTQ)
+- [JavaScript](https://www.codecademy.com/learn)
+- [Design idea (for Whatsapp clone) by Sonny Sangha](https://www.youtube.com/watch?v=pUxrDcITyjg)
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
+[contributors-shield]: https://img.shields.io/github.com/karthi07/review-articles/issues.svg?style=flat-square
+[contributors-url]: https://github.com/karthi07/review-articles/issues/
+[forks-shield]: https://img.shields.io/github/forks/karthi07/review-articles.svg?style=flat-square
+[forks-url]: https://github.com/karthi07/review-articles/issues/network/members
+[stars-shield]: https://img.shields.io/github/stars/karthi07/review-articles.svg?style=flat-square
+[stars-url]: https://github.com/karthi07/review-articles/issues/stargazers
+[issues-shield]: https://img.shields.io/github/issues/karthi07/review-articles.svg?style=flat-square
+[issues-url]: https://github.com/karthi07/review-articles/issues
+
+## 📝 License
+
+This project is [MIT](https://opensource.org/licenses/MIT) licensed.
